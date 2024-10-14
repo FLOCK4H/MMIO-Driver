@@ -6,6 +6,7 @@ A Memory Mapped Input/Output driver for stealth communication between UserMode a
 > The driver is UNSAFE, loading it incorrectly may result in BSOD.
 
 Language: C++ 20
+
 Platform: Windows
 
 # Usage
@@ -23,4 +24,4 @@ For development purposes:
 4. Run the UserMode application
 5. Everything should be 'OK' in the terminals, then it works.
 
-You must actually perform some transactions between UserMode and KernelMode for the driver to have a purpose, the driver itself does not do **ANYTHING**.
+You must actually perform some transactions between UserMode and KernelMode for the driver to have a purpose, the driver itself does not do **anything**.
